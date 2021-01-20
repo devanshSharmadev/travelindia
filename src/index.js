@@ -1,17 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Card from './Card'
+import {Data} from './data'
+import './index.css'
+console.log(Data)
+function ncard(val){
+  return(
+<Card 
+    imgsrc={val.imgsrc}
+    name={val.name}
+    state={val.state}
+    link={val.info}
+    />
 
+  )
+}
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  <React.Fragment>
+    <h1 className="heading">Top 5 places to travel in India</h1>
+    {Data.map(ncard)}
+  </React.Fragment>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  ,document.getElementById('root'))
