@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/travelindia/static/css/main.4909804f.chunk.css",
+    "main.js": "/travelindia/static/js/main.df9c0b70.chunk.js",
+    "main.js.map": "/travelindia/static/js/main.df9c0b70.chunk.js.map",
+    "runtime-main.js": "/travelindia/static/js/runtime-main.dcc0bcc7.js",
+    "runtime-main.js.map": "/travelindia/static/js/runtime-main.dcc0bcc7.js.map",
+    "static/js/2.12f36534.chunk.js": "/travelindia/static/js/2.12f36534.chunk.js",
+    "static/js/2.12f36534.chunk.js.map": "/travelindia/static/js/2.12f36534.chunk.js.map",
+    "index.html": "/travelindia/index.html",
+    "static/css/main.4909804f.chunk.css.map": "/travelindia/static/css/main.4909804f.chunk.css.map",
+    "static/js/2.12f36534.chunk.js.LICENSE.txt": "/travelindia/static/js/2.12f36534.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcc0bcc7.js",
+    "static/js/2.12f36534.chunk.js",
+    "static/css/main.4909804f.chunk.css",
+    "static/js/main.df9c0b70.chunk.js"
+  ]
+}
